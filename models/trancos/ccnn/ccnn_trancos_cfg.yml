@@ -1,0 +1,36 @@
+DATASET: 'TRANCOS'
+TRANCOS:
+  # Database params
+  DOT_ENDING: 'dots.png'
+  MASK_FILE: 'mask.mat'
+  COLOR: True
+
+  # Feature extraction params
+  PW: 140            # Base patch side
+  NR: 800            # < 1 = dense extraction
+  SIG: 15.0        
+  SPLIT: 15          # Create a new file every X images
+  USE_MASK: True
+  FLIP: True
+  USE_PERSPECTIVE: False
+  RESIZE: -1 # Disabled
+
+  # Paths and others
+
+  IM_FOLDER: './counting/datasets/images/'
+  TRAINING_LIST: './counting/datasets/image_sets/train.txt'
+  VALIDATION_LIST: './counting/datasets/validation.txt'
+  TRAINVAL_LIST: './counting/datasets/image_set/trainval.txt'
+  TEST_LIST: './counting/datasets/image_set/test.txt'
+
+  PERSPECTIVE_MAP: ''
+  TRAIN_FEAT: './counting/datasets/feature/train/trancos_train_feat_'
+  TRAIN_FEAT_LIST: './counting/datasets/feature/train/train.txt'
+  VAL_FEAT: './counting/datasets/feature/validation/trancos_val_feat_'
+  VAL_FEAT_LIST: './counting/datasets/feature/validation/test.txt'
+  RESULTS_OUTPUT: '.results/ccnn_trancos'
+
+  # CNN model params
+  CNN_PW_IN: 72    # CNN patch width in
+  CNN_PW_OUT: 18   # CNN patch width out
+  N_SCALES: 1      # HYDRA number of heads
