@@ -93,6 +93,7 @@ We provide here the scripts needed to train and test the models with the pigs da
 * [Pigs dataset]
 ():
 When the paper is accepted, we can open source data.
+Put the downloaded train data in counting-pigs/genfiles/features/train, and put the validation data in counting-pigs/genfiles/features/validation
 #### Download pre-trained models
 
 All our pre-trained models can be downloaded using the corresponding script:
