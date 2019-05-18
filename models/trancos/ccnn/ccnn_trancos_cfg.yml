@@ -18,17 +18,17 @@ TRANCOS:
   # Paths and others
 
   IM_FOLDER: './counting/datasets/images/'
-  TRAINING_LIST: './counting/datasets/image_sets/train.txt'
-  VALIDATION_LIST: './counting/datasets/validation.txt'
-  TRAINVAL_LIST: './counting/datasets/image_set/trainval.txt'
-  TEST_LIST: './counting/datasets/image_set/test.txt'
+  # TRAINING_LIST: './counting/datasets/image_sets/train.txt'
+  # VALIDATION_LIST: './counting/datasets/validation.txt'
+  # TRAINVAL_LIST: './counting/datasets/image_set/trainval.txt'
+  TEST_LIST: './counting/datasets/image_set/demo.txt'
 
   PERSPECTIVE_MAP: ''
-  TRAIN_FEAT: './counting/datasets/feature/train/trancos_train_feat_'
-  TRAIN_FEAT_LIST: './counting/datasets/feature/train/train.txt'
-  VAL_FEAT: './counting/datasets/feature/validation/trancos_val_feat_'
-  VAL_FEAT_LIST: './counting/datasets/feature/validation/test.txt'
-  RESULTS_OUTPUT: '.results/ccnn_trancos'
+  TRAIN_FEAT: 'genfiles/features/train/trancos_train_feat_'
+  TRAIN_FEAT_LIST: 'genfiles/features/train/train.txt'
+  VAL_FEAT: 'genfiles/features/validation/trancos_val_feat_'
+  VAL_FEAT_LIST: 'genfiles/features/validation/test.txt'
+  RESULTS_OUTPUT: 'genfiles/results/ccnn_trancos'
 
   # CNN model params
   CNN_PW_IN: 72    # CNN patch width in
