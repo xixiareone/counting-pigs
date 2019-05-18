@@ -93,6 +93,19 @@ We provide here the scripts needed to train and test the models with the pigs da
 * [Pigs dataset]
 ():
 When the paper is accepted, we can open source data.
+#### Download pre-trained models
+
+All our pre-trained models can be downloaded using the corresponding script:
+
+	```Shell
+    ./tools/get_trancos_model.sh
+## Train model
+run the script
+./experiments/scripts/trancos_train_test.sh
+
+## Test model
+run the script
+./experiments/scripts/trancos_test_pretrained.sh
     
 ### Remarks
 
