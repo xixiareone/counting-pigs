@@ -6,7 +6,7 @@ Many thanks to  Daniel Oñoro-Rubio and Roberto J. López-Sastre for their codes
 ## Introduction
 
 Based on this code, it is improved to make it more suitable for pig counts.
-We have provided the test code, you can test it directly, and all the code will be published after the article is published
+We have provided the test code, you can test it directly, and all the code will be published after the article is accepted.
 
 ## Citing Counting CNN
 
@@ -69,4 +69,31 @@ This code allows the usage of CPU and GPU, but we strongly recommend the usage o
     ```Shell
     export PYTHONPATH=<your_caffe_root_path>/python:$PYTHONPATH
     ```
+### Demo
+
+We here provide a demo about predicting the number of pigs in the test images of the [Pigs dataset]().
+
+To run the demo, these are the steps to follow:
+
+1. Download the our pretrained model.
+	```Shell
+	./our_scale/ccnn_trancos_iter.caffemodel
+	```
+
+2. Finally, to run the demo, simply execute the following command:
+	```Shell
+	./tools/demo.sh
+	```
     
+## How to train and test
+We provide here the scripts needed to train and test the models with the pigs dataset. These are the steps to follow.
+
+#### Download a dataset
+
+* [Pigs dataset]
+():
+When the paper is accepted, we can open source data.
+    
+### Remarks
+
+In order to provide a better distribution, this repository *unifies and reimplements* in Python some of the original modules. Due to these changes in the libraries used, the results produced by this software might be slightly different from the ones reported in the paper.
