@@ -6,7 +6,8 @@ export PYTHONUNBUFFERED="True"
 # Parameters
 GPU_DEV=0
 CONFIG_FILE=models/trancos/ccnn/ccnn_trancos_cfg.yml
-CAFFE_MODEL=models/pretrained_models/trancos/ccnn/trancos_ccnn.caffemodel
+#CAFFE_MODEL=models/pretrained_models/trancos/ccnn/trancos_ccnn.caffemodel
+CAFFE_MODEL=ours_scale/ccnn_trancos_iter.caffemodel
 DEPLOY=models/trancos/ccnn/ccnn_deploy.prototxt
 
 LOG="experiments/logs/trancos_ccnn_`date +'%Y-%m-%d_%H-%M-%S'`.txt"
