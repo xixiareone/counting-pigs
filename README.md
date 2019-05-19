@@ -98,8 +98,10 @@ Put the downloaded train data in counting-pigs/genfiles/features/train, and put 
 
 All our pre-trained models can be downloaded using the corresponding script:
 
-	```Shell
-    ./tools/get_trancos_model.sh
+```Shell
+./tools/get_trancos_model.sh
+```
+    
 ## Train model
 run the script
 ./experiments/scripts/trancos_train_test.sh
