@@ -71,7 +71,7 @@ This code allows the usage of CPU and GPU, but we strongly recommend the usage o
     ```
 ### Demo
 
-We here provide a demo about predicting the number of pigs in the test images of the [Pigs dataset]().
+We here provide a demo about predicting the number of pigs in the test images of the Pigs dataset.
 
 To run the demo, these are the steps to follow:
 
@@ -91,10 +91,10 @@ We provide here the scripts needed to train and test the models with the pigs da
 #### Download a dataset
 
 * [Pigs dataset]
-(https://pan.baidu.com/s/1dQrsGoxqNiqh0kDXSKv3dg):
+(https://pan.baidu.com/s/1GsGLAX4VV0e4c84-nKoa8g):
+Extraction code：yyht
 When the paper is accepted, we can open source data.
-Put the downloaded train data in counting-pigs/genfiles/features/train, and put the validation data in counting-pigs/genfiles/features/validation.
-You need a password to retrieve this file, please send an email to xixiareme@qq.com.
+Put the downloaded train data in counting-pigs/genfiles/features/train, and put the validation data in counting-pigs/genfiles/features/validation. 
 #### Download pre-trained models
 
 All our pre-trained models can be downloaded using the corresponding script:
