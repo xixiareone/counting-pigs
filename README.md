@@ -1,6 +1,7 @@
 # Pigs counting
 
-This repo is a official implementation of ["Towards perspective-free object counting with deep learning"](http://agamenon.tsc.uah.es/Investigacion/gram/publications/eccv2016-onoro.pdf) on object counting with deep learning based on gramuah's code [CCNN](https://github.com/gramuah/ccnn).
+
+This is an implemention of our paper "Automated pig counting using deep learning"（https://www.sciencedirect.com/science/article/pii/S0168169918313176）. Our code is based on gramuah's code [CCNN](https://github.com/gramuah/ccnn).
 Many thanks to  Daniel Oñoro-Rubio and Roberto J. López-Sastre for their codes.
 
 ## Introduction
@@ -17,6 +18,14 @@ We have provided the test code, you can test it directly, and all the code will 
     Booktitle = {ECCV},
     Year = {2016}
 }
+```
+```
+@article{TIAN2019104840,
+    author = "Mengxiao Tian and Hao Guo and Hong Chen and Qing Wang and Chengjiang Long and Yuhao Ma",
+    title = "Automated pig counting using deep learning",
+    journal = "Computers and Electronics in Agriculture",
+    year = "2019",
+    
 ```
 
 ## License
