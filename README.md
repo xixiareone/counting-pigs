@@ -1,7 +1,8 @@
 # Pigs counting
 
 
-This is an implemention of our paper "Automated pig counting using deep learning"（https://www.sciencedirect.com/science/article/pii/S0168169918313176）. Our code is based on gramuah's code [CCNN](https://github.com/gramuah/ccnn).
+This is an implemention of our paper "Automated pig counting using deep learning"
+（https://www.sciencedirect.com/science/article/pii/S0168169918313176）. Our code is based on gramuah's code [CCNN](https://github.com/gramuah/ccnn).
 Many thanks to  Daniel Oñoro-Rubio and Roberto J. López-Sastre for their codes.
 
 ## Introduction
